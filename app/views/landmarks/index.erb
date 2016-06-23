@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Year Completed</th>
+  </tr>
+  <%@landmarks.each do |landmark|%>
+  <tr>
+    <td><%= landmark.id %></td>
+    <td><%= landmark.name %></td>
+    <td><%= landmark.year_completed %></td>
+  </tr>
+  <% end %>
+  
+<table>

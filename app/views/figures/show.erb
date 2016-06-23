@@ -1,0 +1,11 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td><%= @figure.id %></td>
+    <td><%= @figure.name %></td>
+    <td><%=@figure.landmarks.each {|l| l.name} %></td>
+  </tr>
+<table>
